@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         String[] splitDate = formattedDate.split(", ");
 
         weekday = findViewById(R.id.weekday);
+
         weekday.setText(splitDate[0]);
     }
 }
