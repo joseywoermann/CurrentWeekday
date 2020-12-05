@@ -22,7 +22,7 @@ public class WeekdayWidget extends AppWidgetProvider {
 
         String[] splitDate = formattedDate.split(", ");
 
-        CharSequence widgetText = context.getString(R.string.appwidget_text);
+        //CharSequence widgetText = context.getString(R.string.appwidget_text);
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.weekday_widget);
 
