@@ -14,8 +14,7 @@ import java.util.Date;
  */
 public class WeekdayWidget extends AppWidgetProvider {
 
-    static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
-                                int appWidgetId) {
+    static void updateAppWidget(Context context, AppWidgetManager appWidgetManager, int appWidgetId) {
 
         Date currentTime = Calendar.getInstance().getTime();
         String formattedDate = DateFormat.getDateInstance(DateFormat.FULL).format(currentTime);
